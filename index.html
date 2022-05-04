@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src = "https://d3js.org/d3.v4.min.js"></script>
+    <style>
+        .myChartArea{
+            margin: 10%;
+        }
+
+        .myText{
+           justify-content: center;
+           margin-left: 15%;
+        }
+
+        #buttons{
+            background-color: #69b3a2;
+            border-radius: 15%;
+            border: white;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="myChartArea">
+        <h2>Comparing different internet services using Total and Monthly Income Metrics</h2>
+
+
+        <div class="myText">
+            <button id="buttons" onclick="update('TotalCharges')">Total Income</button>
+            <button id="buttons" onclick="update('MonthlyCharges')">Monthly Income</button>
+
+        </div>
+        <div class="myBars">
+
+
+        </div>
+
+        <b style="padding-left: 125px; font:Solid; color: white;">
+        <button><a href="https://bit.ly/3w4TRru">Video Transcript</a></button>&nbsp; &nbsp;
+        <button><a href="documentation.html">Documentation</a></button>
+
+        </b>
+
+    </div>
+
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="d3_Visuals.js"></script>
+
+</body>
+</html>
